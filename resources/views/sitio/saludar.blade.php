@@ -1,1 +1,4 @@
-Hola {!! $elNombre !!} desde una vista.
+@extends('layouts.app')
+@section('contenido')
+    <p>Hola {!! $elNombre !!} desde una vista.</p>
+@stop
